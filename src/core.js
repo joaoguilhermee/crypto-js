@@ -25,7 +25,7 @@ var CryptoJS = CryptoJS || (function (Math, undefined) {
     // Native crypto import via require (NodeJS)
     if (!crypto && typeof require === 'function') {
         try {
-            crypto = require('crypto');
+            // crypto = require('crypto');
         } catch (err) {}
     }
 
